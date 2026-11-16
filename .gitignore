@@ -1,0 +1,23 @@
+# temporary reference clones (Faz 1) - never committed
+_references/
+
+# build output
+build/
+build-*/
+*.o
+*.obj.tmp
+*.exe
+*.pdb
+*.ilk
+
+# python
+__pycache__/
+*.pyc
+.venv/
+tooling_python/output/test_artifacts/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
